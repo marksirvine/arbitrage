@@ -1,0 +1,12 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "resetMocks": true,
+  "globals": {
+    "diagnostics": {
+      "warnOnly": true
+    }
+  },
+  "rootDir": "./",
+  "setupFilesAfterEnv": ["<rootDir>/jest-setup.js"]
+}
